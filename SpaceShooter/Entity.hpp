@@ -1,7 +1,8 @@
 #pragma once
 #include<SFML/Graphics.hpp>
+#include"SceneNode.hpp"
 
-class Entity : public sf::Drawable, public sf::Transformable
+class Entity : public SceneNode
 {
 public:
 	void setVelocity(sf::Vector2f velocity);
@@ -13,6 +14,5 @@ private:
 
 private:
 	sf::Vector2f m_velocity;
-	sf::Sprite m_sprite;
 };
 

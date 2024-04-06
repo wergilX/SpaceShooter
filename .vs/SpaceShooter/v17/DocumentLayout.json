@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Projects\\SpaceShooter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\ResourceHolder.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResourceHolder.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\ResourceHolder.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp",
+              "RelativeToolTip": "SpaceShooter\\ResourceHolder.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-06T20:55:06.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Aircraft.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Aircraft.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
+              "RelativeToolTip": "SpaceShooter\\Aircraft.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-06T20:54:07.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Entity.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
+              "RelativeToolTip": "SpaceShooter\\Entity.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-06T20:53:17.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Aircraft.hpp",
               "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp",
               "RelativeDocumentMoniker": "SpaceShooter\\Aircraft.hpp",
               "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp",
               "RelativeToolTip": "SpaceShooter\\Aircraft.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-06T20:32:46.298Z",
               "EditorCaption": ""
