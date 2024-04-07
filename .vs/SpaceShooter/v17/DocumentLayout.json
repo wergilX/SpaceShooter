@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Projects\\SpaceShooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Stars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Stars.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\SceneNode.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\SceneNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\ResourceHolder.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\Aircraft.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\SpriteNode.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C13151D-D2F6-46EA-B490-B71F2123C0E8}|SpaceShooter\\SpaceShooter.vcxproj|solutionrelative:SpaceShooter\\SpriteNode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SceneNode.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\SceneNode.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.cpp",
+              "RelativeToolTip": "SpaceShooter\\SceneNode.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-07T10:49:04.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResourceHolder.hpp",
-              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp",
-              "RelativeDocumentMoniker": "SpaceShooter\\ResourceHolder.hpp",
-              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\ResourceHolder.hpp",
-              "RelativeToolTip": "SpaceShooter\\ResourceHolder.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Title": "SceneNode.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\SceneNode.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SceneNode.hpp",
+              "RelativeToolTip": "SpaceShooter\\SceneNode.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-06T20:55:06.868Z",
+              "WhenOpened": "2024-04-07T10:48:03.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Aircraft.cpp",
-              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
-              "RelativeDocumentMoniker": "SpaceShooter\\Aircraft.cpp",
-              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
-              "RelativeToolTip": "SpaceShooter\\Aircraft.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Title": "World.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\World.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\World.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\World.cpp",
+              "RelativeToolTip": "SpaceShooter\\World.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-06T20:54:07.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Entity.hpp",
-              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
-              "RelativeDocumentMoniker": "SpaceShooter\\Entity.hpp",
-              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
-              "RelativeToolTip": "SpaceShooter\\Entity.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-06T20:53:17.104Z",
+              "WhenOpened": "2024-04-07T10:24:16.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Stars.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Stars.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.cpp",
+              "RelativeToolTip": "SpaceShooter\\Stars.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-07T10:19:23.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stars.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Stars.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Stars.hpp",
+              "RelativeToolTip": "SpaceShooter\\Stars.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T10:14:34.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Entity.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.hpp",
+              "RelativeToolTip": "SpaceShooter\\Entity.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T10:18:11.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Entity.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Entity.cpp",
+              "RelativeToolTip": "SpaceShooter\\Entity.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-07T10:18:00.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Aircraft.hpp",
               "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp",
               "RelativeDocumentMoniker": "SpaceShooter\\Aircraft.hpp",
               "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.hpp",
               "RelativeToolTip": "SpaceShooter\\Aircraft.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-06T20:32:46.298Z",
+              "WhenOpened": "2024-04-07T10:20:11.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Aircraft.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\Aircraft.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\Aircraft.cpp",
+              "RelativeToolTip": "SpaceShooter\\Aircraft.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-07T10:17:55.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpriteNode.hpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.hpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\SpriteNode.hpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.hpp",
+              "RelativeToolTip": "SpaceShooter\\SpriteNode.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T10:16:09.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SpriteNode.cpp",
+              "DocumentMoniker": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.cpp",
+              "RelativeDocumentMoniker": "SpaceShooter\\SpriteNode.cpp",
+              "ToolTip": "C:\\Projects\\SpaceShooter\\SpaceShooter\\SpriteNode.cpp",
+              "RelativeToolTip": "SpaceShooter\\SpriteNode.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-07T10:04:36.179Z",
               "EditorCaption": ""
             }
           ]

@@ -141,6 +141,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SceneNode.cpp" />
     <ClCompile Include="SpriteNode.cpp" />
+    <ClCompile Include="Stars.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +151,7 @@
     <ClInclude Include="ResourceHolder.hpp" />
     <ClInclude Include="SceneNode.hpp" />
     <ClInclude Include="SpriteNode.hpp" />
+    <ClInclude Include="Stars.hpp" />
     <ClInclude Include="World.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

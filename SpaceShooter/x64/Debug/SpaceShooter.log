@@ -1,12 +1,2 @@
-﻿  Aircraft.cpp
-  Entity.cpp
-  Game.cpp
-C:\Projects\SpaceShooter\SpaceShooter\Game.cpp(64,16): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Projects\SpaceShooter\SpaceShooter\Game.cpp(66,18): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Projects\SpaceShooter\SpaceShooter\Game.cpp(68,18): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Projects\SpaceShooter\SpaceShooter\Game.cpp(70,19): warning C4553: '==': result of expression not used; did you intend '='?
-  World.cpp
-  main.cpp
-  Generating Code...
-C:\Projects\SpaceShooter\SpaceShooter\Aircraft.cpp(14,1): warning C4715: 'toTextureID': not all control paths return a value
+﻿  World.cpp
   SpaceShooter.vcxproj -> C:\Projects\SpaceShooter\x64\Debug\SpaceShooter.exe

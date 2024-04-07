@@ -2,16 +2,6 @@
 #include"Entity.hpp"
 #include"ResourceHolder.hpp"
 
-//namespace Textures
-//{
-//	enum ID
-//	{
-//		SpaceShip,
-//		Support,
-//		Insect
-//	};
-//}
-
 class Aircraft : public Entity
 {
 public:

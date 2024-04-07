@@ -3,10 +3,9 @@
 
 sf::Time TimePerFrame = sf::seconds(1.f / 60.f);
 
-Game::Game() : m_window(sf::VideoMode(640, 480), "SFML Space Shooter")
+Game::Game() : m_window(sf::VideoMode(1000, 1000), "SFML Space Shooter")
 {
 	m_window.setVerticalSyncEnabled(true);
-
 	m_world = std::make_unique<World>(m_window);
 }
 
@@ -14,15 +13,23 @@ void Game::run()
 {
 	sf::Clock clock;
 	sf::Time deltaTime = sf::Time::Zero;
+
+	/*
+	sf::Texture texture;
+	texture.loadFromFile("assets/SpaceShip.png");
+	sf::Sprite sprite;
+	sprite.setTexture(texture);
+	m_window.draw(sprite);
+	*/
+
 	while (m_window.isOpen())
 	{
+		
 		deltaTime = clock.restart();
-		
 		//std::cout << deltaTime.asMicroseconds() << std::endl;
-		
 		processEvents();
-		//update();
-		//m_world->update(deltaTime);
+		update();
+		m_world->update(deltaTime);
 		render();
 	}
 }
@@ -55,7 +62,9 @@ void Game::update()
 
 void Game::render()
 {
+	m_window.clear();
 	m_world->draw();
+	m_window.display();
 }
 
 void Game::handlePlayerInput(sf::Keyboard::Key key, bool isPressed)

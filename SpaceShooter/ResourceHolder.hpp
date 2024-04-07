@@ -16,6 +16,8 @@ namespace Textures
 		Missle,
 		Projectile,
 		Background,
+		SmallStars,
+		BigStars,
 		SpaceShip,
 		Support,
 		Insect,
