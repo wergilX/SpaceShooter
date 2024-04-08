@@ -46,6 +46,9 @@ void World::loadTextures()
 
 void World::buildScene()
 {
+	const float smallStarsSpeed = 15.f;
+	const float bigStarsSpeed = 30.f;
+	
 	// crate scene layers
 	for (std::size_t i = 0; i < LayerCount; ++i)
 	{
@@ -57,37 +60,39 @@ void World::buildScene()
 	// attach background
 	sf::Texture& texture = mTextures.get(Textures::Background);
 	sf::IntRect textureRect(mWorldBounds);
-	std::unique_ptr<SpriteNode> backgroundSprite(new SpriteNode(texture, textureRect));
+	auto backgroundSprite = std::make_unique<SpriteNode>(texture, textureRect);
 	backgroundSprite->setPosition(mWorldBounds.left,mWorldBounds.top);
 	auto bgPtr = backgroundSprite.get();
 	mSceneLayers[Background]->attachChild(std::move(backgroundSprite));
 	
-	//// attach BigStars
-	//sf::Texture& textureBigStars = mTextures.get(Textures::BigStars);
-	//sf::IntRect textureRectBigStars(mWorldBounds);
-	//std::unique_ptr<SpriteNode> backgroundBigStarsSprite(new SpriteNode(textureBigStars, textureRectBigStars));
-	//backgroundBigStarsSprite->setPosition(mWorldBounds.left,mWorldBounds.top);
-	//auto smallStarPtr = backgroundBigStarsSprite.get();
-	//bgPtr->attachChild(std::move(backgroundBigStarsSprite));
-
-	//// attach SmallStars
-	//sf::Texture& textureSmallStars = mTextures.get(Textures::SmallStars);
-	//sf::IntRect textureRectSmallStars(mWorldBounds);
-	//std::unique_ptr<SpriteNode> backgroundSmallStarsSprite(new SpriteNode(textureSmallStars, textureRectSmallStars));
-	//backgroundSmallStarsSprite->setPosition(mWorldBounds.left, mWorldBounds.top);
-	//smallStarPtr->attachChild(std::move(backgroundSmallStarsSprite));
-
-	std::unique_ptr<Stars> bgSmallStars(new Stars(Textures::SmallStars, mTextures));
+	// attach small stars
+	auto bgSmallStars = std::make_unique<Stars>(Textures::SmallStars, mTextures);
 	bgSmallStars->setPosition(sf::Vector2f());
-	bgSmallStars->setVelocity(0, 10.55f);
-	auto smallStarsPtr = bgSmallStars.get();
+	bgSmallStars->setVelocity(0, smallStarsSpeed);
 	bgPtr->attachChild(std::move(bgSmallStars));
+
+	auto bgSmallStarsSecond = std::make_unique<Stars>(Textures::SmallStars, mTextures);
+	bgSmallStarsSecond->setPosition(sf::Vector2f(0, -mWorldView.getSize().y));
+	bgSmallStarsSecond->setVelocity(0, smallStarsSpeed);
+	bgPtr->attachChild(std::move(bgSmallStarsSecond));
+
+	// attach big stars
+	auto bgBigStars = std::make_unique<Stars>(Textures::BigStars, mTextures);
+	bgBigStars->setPosition(sf::Vector2f());
+	bgBigStars->setVelocity(0, bigStarsSpeed);
+	bgPtr->attachChild(std::move(bgBigStars));
+
+	auto bgBigStarsSecond = std::make_unique<Stars>(Textures::BigStars, mTextures);
+	bgBigStarsSecond->setPosition(sf::Vector2f(0, -mWorldView.getSize().y));
+	bgBigStarsSecond->setVelocity(0, bigStarsSpeed);
+	bgPtr->attachChild(std::move(bgBigStarsSecond));
 
 	// attach aircraft
 	std::unique_ptr<Aircraft> leader(new Aircraft(Aircraft::SpaceShip, mTextures));
 	mPlayerAircraft = leader.get();
 	mPlayerAircraft->setPosition(mSpawnPosition);
 	mPlayerAircraft->setVelocity(40.f, mScrollSpeed);
+	mPlayerAircraft->setScale(0.5, 0.5);
 	mSceneLayers[Air]->attachChild(std::move(leader));
 
 	// attach support
