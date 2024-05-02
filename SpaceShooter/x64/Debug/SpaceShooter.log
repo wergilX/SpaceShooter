@@ -1,2 +1,44 @@
-﻿  World.cpp
-  SpaceShooter.vcxproj -> C:\Projects\SpaceShooter\x64\Debug\SpaceShooter.exe
+﻿  Aircraft.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+  Command.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\Command.cpp(4,13): error C2653: 'Category': is not a class or namespace name
+C:\Home\Projects\SpaceShooter\SpaceShooter\Command.cpp(4,23): error C2065: 'None': undeclared identifier
+  CommandQueue.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\CommandQueue.cpp(10,2): error C2440: 'return': cannot convert from 'void' to 'Command'
+C:\Home\Projects\SpaceShooter\SpaceShooter\CommandQueue.cpp(10,2): message : Expressions of type void cannot be converted to other types
+  Entity.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+  Game.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+C:\Home\Projects\SpaceShooter\SpaceShooter\Game.cpp(38,18): error C2065: 'moveLeft': undeclared identifier
+C:\Home\Projects\SpaceShooter\SpaceShooter\Game.cpp(40,18): error C2065: 'moveRight': undeclared identifier
+  main.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+  Player.cpp
+  SceneNode.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(72,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(72,40): error C2143: syntax error: missing ',' before '&'
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(74,6): error C2065: 'command': undeclared identifier
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(75,3): error C2065: 'command': undeclared identifier
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(75,25): error C2065: 'dt': undeclared identifier
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(77,20): error C2065: 'command': undeclared identifier
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.cpp(77,29): error C2065: 'dt': undeclared identifier
+  SpriteNode.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+  Stars.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+  World.cpp
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,30): error C2143: syntax error: missing ',' before '&'
+C:\Home\Projects\SpaceShooter\SpaceShooter\World.cpp(29,14): error C2660: 'SceneNode::onCommand': function does not take 2 arguments
+C:\Home\Projects\SpaceShooter\SpaceShooter\SceneNode.hpp(34,7): message : see declaration of 'SceneNode::onCommand'
+C:\Home\Projects\SpaceShooter\SpaceShooter\World.cpp(29,14): message : while trying to match the argument list '(Command, sf::Time)'
+  Generating Code...

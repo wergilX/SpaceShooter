@@ -42,6 +42,7 @@ private:
 	std::map<Identifier, std::unique_ptr<Resource>> m_textureMap;
 };
 
+typedef ResourceHolder<sf::Font, Textures::ID> FontHolder;
 typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
 
 template<typename Resource, typename Identifier>

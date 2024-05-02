@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -104,13 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Projects\SpaceShooter\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Home\Projects\Pong\dependencies\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Projects\SpaceShooter\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Home\Projects\SpaceShooter\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -136,22 +136,58 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Aircraft.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandQueue.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Container.cpp" />
+    <ClCompile Include="Context.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LoadingState.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="ParallelTask.cpp" />
+    <ClCompile Include="PauseState.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SceneNode.cpp" />
     <ClCompile Include="SpriteNode.cpp" />
     <ClCompile Include="Stars.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateStack.cpp" />
+    <ClCompile Include="TitleState.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aircraft.hpp" />
+    <ClInclude Include="AircraftMover.hpp" />
+    <ClInclude Include="Application.hpp" />
+    <ClInclude Include="Button.hpp" />
+    <ClInclude Include="Command.hpp" />
+    <ClInclude Include="CommandQueue.hpp" />
+    <ClInclude Include="Component.hpp" />
+    <ClInclude Include="Container.hpp" />
+    <ClInclude Include="Context.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameState.hpp" />
+    <ClInclude Include="Label.hpp" />
+    <ClInclude Include="LoadingState.hpp" />
+    <ClInclude Include="MenuState.hpp" />
+    <ClInclude Include="ParallelTask.hpp" />
+    <ClInclude Include="PauseState.hpp" />
+    <ClInclude Include="Player.hpp" />
     <ClInclude Include="ResourceHolder.hpp" />
     <ClInclude Include="SceneNode.hpp" />
     <ClInclude Include="SpriteNode.hpp" />
     <ClInclude Include="Stars.hpp" />
+    <ClInclude Include="State.hpp" />
+    <ClInclude Include="StateIdentifiers.hpp" />
+    <ClInclude Include="StateStack.hpp" />
+    <ClInclude Include="TitleState.hpp" />
     <ClInclude Include="World.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

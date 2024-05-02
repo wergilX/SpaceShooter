@@ -14,50 +14,49 @@ void Game::run()
 	sf::Clock clock;
 	sf::Time deltaTime = sf::Time::Zero;
 
-	/*
-	sf::Texture texture;
-	texture.loadFromFile("assets/SpaceShip.png");
-	sf::Sprite sprite;
-	sprite.setTexture(texture);
-	m_window.draw(sprite);
-	*/
-
 	while (m_window.isOpen())
 	{
-		
+		if (!mIsPaused)
+			update(deltaTime);
+
 		deltaTime = clock.restart();
-		//std::cout << deltaTime.asMicroseconds() << std::endl;
-		processEvents();
-		update();
-		m_world->update(deltaTime);
 		render();
+		processEvents();
 	}
 }
 
 void Game::processEvents()
 {
+	CommandQueue& commands = m_world->getCommandQueue();
 	sf::Event event;
 	while (m_window.pollEvent(event))
 	{
-		switch (event.type)
-		{
-		case sf::Event::KeyPressed:
-			handlePlayerInput(event.key.code, true);
-			break;
-
-		case sf::Event::KeyReleased:
-			handlePlayerInput(event.key.code, false);
-			break;
-
-		case sf::Event::Closed:
+		mPlayer.handleEvent(event, commands);
+		if (event.type == sf::Event::Closed)
 			m_window.close();
-			break;
-		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+			commands.push(moveLeft);
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+			commands.push(moveRight);
 	}
+	mPlayer.handleRealtimeInput(commands);
 }
 
-void Game::update()
+void Game::update(sf::Time deltaTime)
 {
+	m_world->update(deltaTime);
+
+	sf::Vector2f movement(0.f, 0.f);
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+		//movement.y -= PlayerSpeed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+		//movement.y += PlayerSpeed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+		//movement.x -= PlayerSpeed;
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+	{ }
+		//movement.x += PlayerSpeed;
+	//m_player.move(movement * deltaTime.asSeconds());
 }
 
 void Game::render()
@@ -65,16 +64,14 @@ void Game::render()
 	m_window.clear();
 	m_world->draw();
 	m_window.display();
+
+
+	/*
+	mWindow.clear();
+mWorld.draw();
+mWindow.setView(mWindow.getDefaultView());
+mWindow.draw(mStatisticsText);
+mWindow.display();
+	*/
 }
 
-void Game::handlePlayerInput(sf::Keyboard::Key key, bool isPressed)
-{
-	if (key == sf::Keyboard::W)
-		m_IsMovingUp == isPressed;
-	if (key == sf::Keyboard::S)
-		m_IsMovingDown == isPressed;
-	if (key == sf::Keyboard::A)
-		m_IsMovingLeft == isPressed;
-	if (key == sf::Keyboard::D)
-		m_IsMovingRight == isPressed;
-}
